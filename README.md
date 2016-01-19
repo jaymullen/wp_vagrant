@@ -1,0 +1,1 @@
+This is a basic Vagrant setup for a wordpress site using an ubuntu box, apache, and mysql.  Setup to use Vagrant plugin HostUpdater to set a local domain for the site.  Did not include the actual wordpress files, that's up to you.
