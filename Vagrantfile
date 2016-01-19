@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.network "private_network", ip: "192.168.50.1"
+  config.vm.network "private_network", ip: "192.168.50.2"
   if defined?(VagrantPlugins::HostsUpdater)
     config.vm.hostname = "wp-site.local"
     #config.hostsupdater.aliases = ["alias.testing.de", "alias2.somedomain.com"]
